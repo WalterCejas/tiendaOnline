@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    font-family: "Osawld";
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+a, li{
+    font-family: "Oswald";
+    list-style: none;
+    color: black;
+}
+
+.header{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.logo-header img{
+    width: 100px;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center
+}
+
+.nav-menu li{
+    margin: 20px;
+}
+.iconos-img{
+    display: flex;
+    
+}
+.iconos{
+    margin: 5px;
+
+}
+.iconos img{
+    width: 25px;
+}
+
+.carro{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;   
+}
+---/*fin del header*/---
+
+
+
+.productos-{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.gorraarg{
+    display: flex;
+    background-color: white;
+    border-radius: 22px;
+    margin: 15px;
+    padding: 20px 20px;
+    width:300px;
+}
+
+.gorraarg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.gorraarg h3{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+}
+.gorraarg p{
+    font-family: fantasy;
+    color: green;
+    display: flex;
+    justify-content: center;
+    
+}
+#categorias{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.contenedor-de-categorias2{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 22px;
+}
+.contenedor-de-categorias{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.contenedor-de-ofertas{
+    display: inline-block;
+    background-color: gray;
+    display: flex;
+    border-radius: 22px;
+    
+}
+#ofertas{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.video-gorras{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.compra-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.gorraarg-compra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 200px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 12px;
+    width:1200px;
+    height: 600px;
+}
+
+.gorraarg-compra img{
+    display: flex;
+    width: 600px;
+}
+
+.gorraarg-compra p{
+    display: flex;
+    font-size: 46px;
+    font-weight: 600px;
+    color: red;
+}
+
+.gorraarg-compra h2{
+    display: flex;
+    color: blue;
+}
+
+.boton-compra input{
+    background-color: rgb(5, 241, 24);
+    width: 100px;
+}
+.gorraarg-compra-{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 200px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 12px;
+    width:1000px;
+    height: 500px;
+}
+
+.gorraarg-compra- img{
+    display: flex;
+    width: 500px;
+}
+
+.gorraarg-compra- p{
+    display: flex;
+    font-size: 46px;
+    font-weight: 600px;
+    color: red;
+}
+
+.gorraarg-compra- h2{
+    display: flex;
+    color: blue;
+}
