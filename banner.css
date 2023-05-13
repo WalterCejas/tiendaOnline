@@ -1,0 +1,16 @@
+
+
+.banner--gorra {
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../media/gorra-banner.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+--/*perdon por dejar este CSS fuera de la carpeta,
+ pero fue la unica solucion que encontre para poder agregarle texto
+  y boton a la imagen*/

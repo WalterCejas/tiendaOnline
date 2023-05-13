@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 *{
     font-family: "Osawld";
-   padding: 0;
-   margin: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -16,12 +19,17 @@ a, li{
 }
 
 .header{
-    background-color: gray;
     display: flex;
+    background-color: gray;
     align-items: center;
     padding: 10px;
     justify-content: space-between;
-    
+}
+
+@media (max-width:700px){
+    .header{
+        flex-direction: column;
+    }
 }
 
 .logo-header img{
@@ -55,7 +63,10 @@ a, li{
 }
 ---/*fin del header*/---
 
-
+@media (max-width:700px){
+    
+    
+}
 
 .productos-{
     display: flex;
@@ -99,7 +110,7 @@ a, li{
     justify-content: center;
 }
 .contenedor-de-categorias2{
-    display: flex;
+    display: grid;
     align-items: center;
     padding: 10px;
     justify-content: center;
@@ -107,17 +118,20 @@ a, li{
     border-radius: 22px;
 }
 .contenedor-de-categorias{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 150px;
+    padding: 50px;
+    
 }
 
 .contenedor-de-ofertas{
-    display: inline-block;
-    background-color: gray;
-    display: flex;
-    border-radius: 22px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 50px;
     
 }
 #ofertas{
@@ -131,7 +145,7 @@ a, li{
 .video-gorras{
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 30px 30px;
 }
 .compra-1{
     display: flex;
