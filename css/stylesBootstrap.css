@@ -4359,7 +4359,7 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 10%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
   color: var(--bs-accordion-btn-color);
