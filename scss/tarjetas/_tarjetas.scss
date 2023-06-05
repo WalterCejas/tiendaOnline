@@ -1,0 +1,57 @@
+
+.gorraarg{
+    display: flex;
+    background-color: white;
+    border-radius: 22px;
+    margin: 15px;
+    padding: 20px 20px;
+    width:300px;
+    border: 0;
+    background-image: linear-gradient(150deg, #FCFCFC,#030303,#FCFCFC);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+    img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        background-image: linear-gradient(150deg, #9500ff ,#09f ,#00ddff);
+        padding: 8px 10px;
+        border-radius: 6px;
+        transition: .3s;
+        &:hover {
+            background: none;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+        h3{
+            display: flex;
+            justify-content: center;
+            color: blue;
+            text-decoration: none;
+            padding: 15px;
+        }
+    }
+    &:active{
+        transition: scale(0.9);
+    }
+    &::before{
+        content: "";
+        background: -moz-linear-gradient(to bottom right,#9500ff ,#09f ,#00ddff);
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        transform: translateY(30%) scale(0.85);
+        filter: blur(30PX);
+    
+    }
+}
+.video-gorras{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
